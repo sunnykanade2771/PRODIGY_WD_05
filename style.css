@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  background: #2193b0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #176f86;
+}
+
+#weather {
+  margin-top: 20px;
+}
